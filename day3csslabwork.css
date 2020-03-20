@@ -1,0 +1,184 @@
+/*navigation bar on top*/
+/*nav{
+  width: 100vw;
+  background-color: #D6EFFF;
+  text-align: center;
+}
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font: sans-serif;
+	list-style-type: none;
+	margin-right: 30px;
+} 
+
+nav a {
+	text-decoration: none;
+	color:red;
+} 
+
+nav a:hover {
+	text-decoration: underline;
+	color: darkgray;
+}
+.row:after {
+  content: “”;
+  display: table;
+  clear: both;
+} */
+/*Navigation bar  css ends*/
+.header1{
+	text-align-last: center;
+	font-size: 400%;
+	/*font-family: sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.r1{
+   font-size:100%;
+   font-family: sans-serif;
+   text-align: left;
+
+}
+.image1{
+	text-align: center;
+}
+img {
+  float: right;
+}
+/**/
+body {
+  background-image: url("https://image.freepik.com/free-photo/blurred-abstract-background-modern-kitchen-with-tabletop-space-display-your-products_91908-1263.jpg");
+  
+  /*background-image: url("https://wallpapercave.com/wp/wp1874210.jpg");*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+.container-1{
+	display: flex;
+
+    
+  }
+  
+  
+  .container-1 div
+{
+   border: 3px #ccc solid;
+   padding: 50px;
+   
+   /*text-shadow: 5px 5px 5px black;*/
+   
+	
+}
+
+  
+  .box-1{
+  	flex: 1;
+  	font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 3px  pink;
+    font-size: 16px;
+    
+
+  }
+  
+  .box-2{
+    flex: 1;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 5px 5px 3px  white;
+    font-size: 100%;
+    
+    
+  }
+  
+  .box-3{
+    flex: 1;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 2px  gray;
+    
+  }
+
+  /*.box-4, .box-5, .box-6{
+    
+    width: 24%;
+  }*/
+  /*.shadow -div
+{
+	box-shadow: 5px 5px 10px red;
+    
+}
+.shadow -div -inset
+{
+	box-shadow: 5px 5px 10px #006622 inset;
+
+}
+*/
+/*Dropdown css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0088ce;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*drop down css*/
+
+
+/* start code Animation*/
+.tracking-in-expand {
+	animation: tracking-in-expand 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*End code for Animation*/
